@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(2833946.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    color: #c4c4c4d4;
+    font-family: "Electrolize", sans-serif;
+    font-size: 38px;
+    letter-spacing: 5px;
+    word-spacing: 24px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 600;
+}
+.container{
+    height:350px;
+    width: 800px;
+    /* border: 2px solid white; */
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 34px;
+    background-color: #000000b5;
+    box-shadow: 0px 13px 15px 3px #000000;
+}
+.clock{
+    height: 100px;
+    width: 200px;
+}
+.time{
+    font-family: "Electrolize", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 96px;
+    font-weight: 600;
+}
+.time-text{
+    color: #ff0000;
+    font-family: "Electrolize", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 25px;
+}
+.buttons{
+    height: 100px;
+    width: 600px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttons button{
+    height: 60px;
+    width: 150px;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #ff00008a;
+    color: white;
+    font-family: "Electrolize", sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+.buttons button:hover{
+    background-color: rgba(233, 3, 3, 0.764);
+    transform: scale(0.9);
+    transition-duration: 0.3s;
+    border: 1px solid white;
+    cursor: pointer;
+}
